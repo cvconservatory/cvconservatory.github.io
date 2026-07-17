@@ -1,10 +1,12 @@
-# Cubic phase gate
-The cubic phase gate is defined as
+# Quadratic phase gate
+## Definition
+The quadratic phase gate is defined as
 
 $``P(t) = \exp\left( i t \hat{q}^2 / 2 \hbar \right)``$
 
 with Hamiltonian matrix $`` \begin{pmatrix} t & 0 \\ 0 & 0 \end{pmatrix}``$. 
 
+## Heisenberg Action
 In the Heisenberg picture one can write
 
 $``P(s)^\dagger \begin{pmatrix}  \hat{q} \\ \hat{p} \end{pmatrix}P(s) = e^{-\Omega H} \begin{pmatrix}  \hat{q} \\ \hat{p} \end{pmatrix} = S \begin{pmatrix}  \hat{q} \\ \hat{p} \end{pmatrix}``$
@@ -19,12 +21,14 @@ $``S =  R(\theta) [e^r \oplus e^{-r}] R(\theta - \tfrac{\pi}{2}), \ R(\theta) =
 
 where the parameters above are related to $t\geq0$ as follows  $\sinh r = t/2, \  \theta = \tan^{-1} e^{r}$.
 
+## Decompositions
 The above equations gives rise to the following decomposition in Hilbert space
 
 $``P(t) = e^{i \varphi}\exp\left( i \theta \hat{a}^\dagger \hat{a} \right) \exp(\tfrac{r}{2}(\hat{a}^{\dagger 2} - \hat{a}^2)) \exp\left( i (\theta - \tfrac{\pi}{2}) \hat{a}^\dagger \hat{a}  \right) ``$
 
 where $``\exp(i \varphi) = \frac{\sqrt[4]{1+\tfrac{t^2}{4}} }{\sqrt{1 - i \tfrac{t}{2}}}``$.
 
+## Bargmann Representation
 We now compute the coherent-state matrix elements of $P(t)$
 
 $$\langle \alpha^* \vert P(t) \vert \beta \rangle = \langle \alpha^* \vert e^{i \varphi}\exp\left( i \theta \hat{a}^\dagger \hat{a} \right) \exp(\tfrac{r}{2}(\hat{a}^{\dagger 2} - \hat{a}^2)) \exp\left( i (\theta - \tfrac{\pi}{2}) \hat{a}^\dagger \hat{a}  \right) \vert \beta \rangle,$$
