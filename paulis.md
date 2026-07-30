@@ -41,7 +41,7 @@ $$
 \ket{i+} = \Gamma^\dagger \ket{0} \text{ and } \ket{i-} = \Gamma^\dagger \ket{1}
 $$ 
 
-They also satisfy $\Gamma \Gamma^T = R R^T = X$, i.e., they both give a Takagi-Autonne decomposition of $X$, which also implies that we can write
+They also satisfy $\Gamma \Gamma^T = R R^T = X$, i.e., they both give a Takagi-Autonne decomposition of $X$. Moroever, $\Gamma Z \Gamma^\dagger = X$  which implies that we can write
 
 $$
 \ket{+} = \Gamma \ket{0}, \quad \ket{-} = i \Gamma \ket{1}.
