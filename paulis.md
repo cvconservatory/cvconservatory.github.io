@@ -50,5 +50,5 @@ $$
 Note that when $\Gamma$ acts on a real-valued vector it produces a vector in which the second entry is the complex conjugate of the first one
 
 $$
-\Gamma \begin{pmatrix} q \\ p \end{pmatrix} = \tfrac{1}{\sqrt{2}} \begin{pmatrix} 1 & -i \\\ 1 & i \end{pmatrix} \begin{pmatrix} q \\\ p \end{pmatrix} = \tfrac{1}{\sqrt{2}} \begin{pmatrix} q -i p \\\ q+ i p\end{pmatrix} = \tfrac{1}{\sqrt{2}} \begin{pmatrix} \alpha^* \\\ \alpha\end{pmatrix}, \quad \alpha := q+i p . 
+\Gamma \begin{pmatrix} q \\\ p \end{pmatrix} = \tfrac{1}{\sqrt{2}} \begin{pmatrix} 1 & -i \\\ 1 & i \end{pmatrix} \begin{pmatrix} q \\\ p \end{pmatrix} = \tfrac{1}{\sqrt{2}} \begin{pmatrix} q -i p \\\ q+ i p\end{pmatrix} = \tfrac{1}{\sqrt{2}} \begin{pmatrix} \alpha^* \\\ \alpha\end{pmatrix}, \quad \alpha := q+i p . 
 $$
